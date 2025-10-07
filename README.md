@@ -1,1 +1,155 @@
+title = black dog
+
+
+https://github.com/rajpootabhijeet7-ui/Fgg/tree/main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHIJEET | Blog</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-link {
+            transition: color 0.3s, border-bottom-color 0.3s;
+        }
+        .nav-link.active {
+            color: #3b82f6; /* blue-500 */
+            border-bottom-color: #3b82f6;
+        }
+        .nav-link:hover {
+            color: #60a5fa; /* blue-400 */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 antialiased transition-colors duration-300">
+
+    <div class="container mx-auto px-4 md:px-8 max-w-5xl">
+
+        <!-- Header Section -->
+        <header class="py-6 md:py-8 border-b border-gray-200 dark:border-gray-700">
+            <div class="flex justify-between items-center">
+                <h1 class="text-3xl md:text-4xl font-bold text-blue-600 dark:text-blue-500 tracking-tight">ABHIJEET</h1>
+                <nav>
+                    <ul class="flex space-x-6 md:space-x-8 text-lg">
+                        <li><a href="#" id="home-link" class="nav-link active border-b-2 border-transparent pb-1">Home</a></li>
+                        <li><a href="#" id="about-link" class="nav-link border-b-2 border-transparent pb-1">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="py-8 md:py-12">
+
+            <!-- Home Section: Blog Posts -->
+            <section id="home-section">
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-gray-900 dark:text-white">Latest Posts</h2>
+                <div class="space-y-12">
+                    
+                    <!-- Blog Post 1 -->
+                    <article class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <div class="flex flex-col md:flex-row md:items-center">
+                            <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Tech" alt="[attachment_0](attachment)" class="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-1">
+                                <span class="text-sm text-gray-500 dark:text-gray-400">October 08, 2025</span>
+                                <h3 class="text-2xl font-bold mt-2 mb-3 text-blue-600 dark:text-blue-400">My Journey into Web Development</h3>
+                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">Ek samay ki baat hai, jab maine code ki duniya mein apna pehla kadam rakha. Yeh safar mushkilon aur nayi seekhon se bhara tha. Chaliye jante hain iske baare mein...</p>
+                                <a href="#" class="inline-block mt-4 font-semibold text-blue-600 dark:text-blue-500 hover:underline">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                         <div class="flex flex-col md:flex-row md:items-center">
+                            <img src="https://placehold.co/600x400/10b981/ffffff?text=Travel" alt="[attachment_1](attachment)" class="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-6">
+                            <div class="flex-1">
+                                <span class="text-sm text-gray-500 dark:text-gray-400">September 22, 2025</span>
+                                <h3 class="text-2xl font-bold mt-2 mb-3 text-blue-600 dark:text-blue-400">Exploring the Hills of North India</h3>
+                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">Pahadon ki shaanti aur thandi hawa, yeh anubhav hamesha yaadgaar rehta hai. Is post mein main apne travel anubhav share kar raha hoon.</p>
+                                <a href="#" class="inline-block mt-4 font-semibold text-blue-600 dark:text-blue-500 hover:underline">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section id="about-section" class="hidden">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                    <div class="text-center">
+                        <img src="https://placehold.co/150x150/0ea5e9/ffffff?text=ABHIJEET" alt="" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-500">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">About Me</h2>
+                    </div>
+                    <div class="mt-8 text-center max-w-2xl mx-auto">
+                        <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                           Hello! Mera naam Abhijeet hai. Internet par is personal jagah mein aapka swagat hai.
+                        </p>
+                        <p class="text-xl text-blue-600 dark:text-blue-400 font-semibold my-6 p-4 bg-blue-50 dark:bg-gray-700 rounded-lg">
+                           "Abhijeet bht achha ldka hain."
+                        </p>
+                        <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                           Yahan main technology, life, aur inke beech ki har cheez ke baare mein apne vichaar share karta hoon. Ummeed hai aapko yeh blog pasand aayega!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-6 border-t border-gray-200 dark:border-gray-700">
+            <p class="text-gray-500 dark:text-gray-400">&copy; 2025 ABHIJEET's Blog. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript for Navigation -->
+    <script>
+        const homeLink = document.getElementById('home-link');
+        const aboutLink = document.getElementById('about-link');
+        
+        const homeSection = document.getElementById('home-section');
+        const aboutSection = document.getElementById('about-section');
+        
+        // Function to switch active view
+        function showSection(sectionToShow, linkToActivate) {
+            // Hide all sections
+            homeSection.classList.add('hidden');
+            aboutSection.classList.add('hidden');
+            
+            // Deactivate all links
+            homeLink.classList.remove('active');
+            aboutLink.classList.remove('active');
+            
+            // Show the target section and activate the link
+            sectionToShow.classList.remove('hidden');
+            linkToActivate.classList.add('active');
+        }
+
+        // Event Listeners
+        homeLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            showSection(homeSection, homeLink);
+        });
+
+        aboutLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            showSection(aboutSection, aboutLink);
+        });
+    </script>
+
+</body>
+</html>
 
